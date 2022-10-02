@@ -26,9 +26,9 @@ public class ConsoleManager {
         int answer = in.nextInt();
 
         if(words[answer - 1].getTranslate().equals(trueWord.getTranslate())) {
-            System.out.println("Your answer " + answer + " is right!");
+            System.out.println("Your answer " + answer + " is right!\n");
         } else {
-            System.out.println("Your answer " + answer + " is wrong!");
+            System.out.println("Your answer " + answer + " is wrong!\n");
         }
     }
 }
